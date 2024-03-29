@@ -11,6 +11,7 @@ function showAlert() {
             var department = document.querySelector("#department").value;
             var level = document.querySelector("#level").value;
             var ges = document.querySelector("#ges").value;
+                   var ges = document.querySelector("#ref").value;
 
             var url = "https://wa.me/" + phonenumber + "?text=" +
                 "*Name:* " + name + "%0a" +
@@ -20,6 +21,7 @@ function showAlert() {
                 "*Department:* " + department + "%0a" +
                 "*Level:* " + level + "%0a" +
                 "*Which GES are you requesting for:* " + ges + "%0a" +
+                   "*Refferal code(if any):* " + ref + "%0a" +
                 "Good day, This are my details and I need MyGesHub";
 
             window.open(url, "_blank").focus();
