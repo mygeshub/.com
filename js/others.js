@@ -3,7 +3,8 @@ function showAlert() {
 }
               
                function sendwhatsapp() {
-            var phonenumber = "+2347048280029";
+                 event.preventDefault();
+            var phonenumber = "2347048280029";
             var name = document.querySelector("#name").value;
             var email = document.querySelector("#email").value;
             var pnumber = document.querySelector("#pnumber").value;
